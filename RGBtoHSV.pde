@@ -25,7 +25,6 @@ void setup()
    
 }
 
-//Conversion formulas as mentioned in Creative Computing 2: Interactive Multimedia studio guide with slight adjustment
 public void RGBtoHSB(int red, int green, int blue)
 {
   
