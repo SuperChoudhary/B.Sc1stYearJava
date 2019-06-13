@@ -1,6 +1,6 @@
 //Calculate Levenshtein Distance in plotted graphical form
 
-//list of main cities in pakistan (4 provincial capitals + 1 federal capital)
+//Can be replaced with custom words, or dictionary words
 String[] list = {"Islamabad", "Peshawar", "Lahore", "Quetta", "Karachi"};
 //input string from user
 String s;
