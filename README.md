@@ -1,6 +1,6 @@
 # A list of Projects I attempted at University Level including code written primarily in Java, Python, and a bit of C#
 
-## Image Compression Algorithms
+## ImageCompression.pde
 Top-Left Pixel Image Compression
 ![1](https://user-images.githubusercontent.com/24845911/59444648-ac712900-8e17-11e9-8880-2048ec0616af.jpg)
 
