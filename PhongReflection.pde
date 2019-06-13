@@ -31,8 +31,6 @@ void setup()
   
   torus = getTorus(150.0, 50.0, 10, 30, tiles);
   
-  //Part B 2.
- // texlightShader.set("time", 1.0);
 }
 
 void draw()
