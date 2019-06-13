@@ -14,3 +14,9 @@ Color Average Image Compression
 ## TextureMapping.pde
 ![TextureMapping](https://user-images.githubusercontent.com/24845911/59447058-1be91780-8e1c-11e9-880d-22f0c9b13572.gif)
 
+## 2Dto3DHeightMap.pde
+### 2D Height Map
+![gray](https://user-images.githubusercontent.com/24845911/59447700-21932d00-8e1d-11e9-97b9-15d982471338.png)
+
+### 3D Height Map
+![HeightMap3D](https://user-images.githubusercontent.com/24845911/59447701-21932d00-8e1d-11e9-8e38-9edd4447b3ae.PNG)
