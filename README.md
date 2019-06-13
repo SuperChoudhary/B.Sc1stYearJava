@@ -20,3 +20,7 @@ Color Average Image Compression
 
 ### 3D Height Map
 ![HeightMap3D](https://user-images.githubusercontent.com/24845911/59447701-21932d00-8e1d-11e9-8e38-9edd4447b3ae.PNG)
+
+## PhongReflection.pde
+#### SpecularFocus, SpecularContribution and DiffuseContribution simulated using GLSL Shaders
+![PhongReflectionModel](https://user-images.githubusercontent.com/24845911/59448530-cd894800-8e1e-11e9-9dd9-5628c48270db.gif)
