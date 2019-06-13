@@ -1,10 +1,6 @@
 //Name: Saad Asghar
 //SRN: 150303639
-/* I have attempted the coursework assignment for this course (CO2226 Software engineering, algorithm design and analysis)
- * last year, so much of my previously written code was used and re-edited as this assignment was similar to the one that was 
- * given to us last year i.e (Coursework assignment 2 2016–17) with a few ammendments. 
- * I am mentioning this explicitly inorder to avoid plagiarism.
- * I hereby verify that all the code that was asked for us to write has been written by me.
+/* Java code based on Commandline Arguments to calculate shortest path between airports based on UK country map and A* algorithm
  */
 
 import java.io.FileReader;
