@@ -1,6 +1,6 @@
 # A list of Projects I attempted at University Level including code written primarily in Java, Python, GLSL and a bit of C#
 
-## Movie Recommender System
+## MovieRecommender.pde
 ![MovieRecommender](https://user-images.githubusercontent.com/24845911/59505783-dbdb7080-8ebf-11e9-9dfa-2d0438fa24b8.gif)
 
 ## LevenshteinDistanceGraph.pde
