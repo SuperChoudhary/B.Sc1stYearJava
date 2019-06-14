@@ -1,4 +1,4 @@
-//Recommender System using MovieLens Dataset 
+//Recommender System using MovieLens small dataset 
 
 String userInput;
 int counter;
@@ -6,7 +6,6 @@ int counter;
 ArrayList<Integer> userList = new ArrayList<Integer>();
 ArrayList<Integer> movieList = new ArrayList<Integer>();
 ArrayList<String> tagList = new ArrayList<String>();
-ArrayList<String> timeStampList = new ArrayList<String>();
 //movies.csv
 ArrayList<Integer> movieIDList = new ArrayList<Integer>();
 ArrayList<String> movieNames = new ArrayList<String>();
@@ -20,8 +19,6 @@ void setup()
   size(100, 100);
   tagReader();
   movieReader();
-  println("Enter a search word to get started.");
-  println();
 }
 
 //reads tags and stores in arrayList
@@ -39,7 +36,6 @@ void tagReader()
       userList.add(int(tagLines[0]));
       movieList.add(int(tagLines[1]));
       tagList.add(tagLines[2]);
-      timeStampList.add(tagLines[3]);
   
     }
     tagReader.close();
@@ -48,7 +44,6 @@ void tagReader()
   {
     e.printStackTrace();
   }
-  
 }
 
 //reads movie names and stores in arrayList
@@ -74,22 +69,30 @@ void movieReader()
     e.printStackTrace();
   }
   
-  
 }
 
 void getShow(String userInput)
 {
+  ArrayList<Integer> newTags = new ArrayList<Integer>();
   ArrayList<String> results = new ArrayList<String>();
-  
-  //Use tags[2] with userInput and get tags[1] then find movies[1] 
-  //by comparing tags[2] with movies[0]
   
   for (int i=0; i<tagList.size(); i++)
   {
     if(tagList.get(i).toString().toLowerCase().contains(userInput.toLowerCase()))
     {
-      results.add(movieNames.get(i).toString());
+      newTags.add(movieList.get(i));
     }
+  }
+  
+  for (int i=0 ; i<movieNames.size() ; i++)
+  {
+    for (int k=0 ; k<newTags.size() ; k++)
+    {
+       if (newTags.get(k).equals(movieIDList.get(i)))
+       {
+         results.add(movieNames.get(i));
+       }
+    }  
   }
   
   for (int i=0 ; i<results.size(); i++)
@@ -97,13 +100,19 @@ void getShow(String userInput)
     println(results.get(i).toString());
     println();
   }
-   
     
 }
 
 
 void draw()
 {
+ 
+    //Loading Animation not needed
+    //fill(230);
+    //stroke(230);
+    //strokeWeight(18);
+    //line(100, 250, 100+counter/10, 250);
+  
 }
 
 void keyPressed()
@@ -116,5 +125,5 @@ void keyPressed()
   }
   
   userInput += key;
-  println("Searching category: " + userInput);
+  println("Tag: " + userInput);
 }
