@@ -9,3 +9,10 @@
 
 # HueInvertAndGreyscale.pde
 ![HueInvertAndGreyScale](https://user-images.githubusercontent.com/24845911/59445873-d3c8f580-8e19-11e9-8b1d-1a6694870f4b.gif)
+
+# 2Dto3DHeightMap.pde
+### 2D Height Map
+![gray](https://user-images.githubusercontent.com/24845911/59447700-21932d00-8e1d-11e9-97b9-15d982471338.png)
+
+### 3D Height Map
+![HeightMap3D](https://user-images.githubusercontent.com/24845911/59447701-21932d00-8e1d-11e9-8e38-9edd4447b3ae.PNG)
