@@ -2,6 +2,7 @@
 
 String userInput;
 int counter;
+boolean donePrinting = false;
 //tags.csv
 ArrayList<Integer> userList = new ArrayList<Integer>();
 ArrayList<Integer> movieList = new ArrayList<Integer>();
@@ -19,6 +20,7 @@ void setup()
   size(100, 100);
   tagReader();
   movieReader();
+  println("Enter a search word to be recommended a movie");
 }
 
 //reads tags and stores in arrayList
@@ -121,9 +123,13 @@ void keyPressed()
   {
     println();
     getShow(userInput);
-    println("Showing recommendations for '" + userInput + "'.");
+    println("All movie recommendations for '" + userInput + "'.");
+    donePrinting = true;
   }
   
-  userInput += key;
-  println("Tag: " + userInput);
+  if (!donePrinting)
+  {
+    userInput += key;
+    println("Tag: " + userInput);
+  }
 }
