@@ -1,4 +1,4 @@
-# A list of Projects I attempted at University Level including code written primarily in Java, Python, and a bit of C#
+# A list of Projects I attempted at University Level including code written primarily in Java, Python, GLSL and a bit of C#
 
 ## LevenshteinDistanceGraph.pde
 #### The Minimum Edit distance from User Input A to Word B, used in Autocorrection Software
