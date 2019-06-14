@@ -4,7 +4,7 @@ int scl = 1;
 float scale = 0.01;
 float[][] colour;
 
-void draw()
+void setup()
 {
   size(800, 800);
   cols = height/scl;
