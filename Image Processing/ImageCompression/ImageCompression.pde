@@ -12,7 +12,7 @@ int _r, _g, _b;
 
 void setup() {
   size(384, 288);
-  image = loadImage("test.jpg");
+  image = loadImage("CRImage.jpg");
 
   //Creating images with 1/8th the width and height of the  original 3072 x 2304
   newImage1 = createImage(image.width/8 ,image.height/8, RGB);
