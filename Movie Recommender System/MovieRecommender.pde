@@ -1,5 +1,3 @@
-//Recommender System using MovieLens small dataset 
-
 String userInput;
 int counter;
 boolean donePrinting = false;
@@ -15,12 +13,11 @@ ArrayList<String> movieGenre =  new ArrayList<String>();
 void setup() 
 {
   userInput = "";
-  counter = 0;
-  
   size(100, 100);
   tagReader();
   movieReader();
-  println("Enter a search word to be recommended a movie");
+  println("Enter any word to find a suitable movie.");
+  println("______________________________________________");
 }
 
 //reads tags and stores in arrayList
@@ -97,14 +94,42 @@ void getShow(String userInput)
     }  
   }
   
-  for (int i=0 ; i<results.size(); i++)
-  {
-    println(results.get(i).toString());
-    println();
-  }
-    
+  println("MOVIE SUGGESTIONS");
+  println("______________________________________________"); 
+  println();    
+  removeDuplicates(results);
+  println("______________________________________________");   
+
 }
 
+public static <T> ArrayList<T> removeDuplicates(ArrayList<T> list) 
+{ 
+  
+        // Create a new ArrayList 
+        ArrayList<T> newResults = new ArrayList<T>(); 
+  
+        // Traverse through the first list 
+        for (T element : list) 
+        { 
+  
+            // If this element is not present in newList 
+            // then add it 
+            if (!newResults.contains(element))
+            { 
+  
+                newResults.add(element); 
+            } 
+        } 
+  
+        // print all values
+        for (int i=0 ; i<newResults.size(); i++)
+        {
+          println(newResults.get(i).toString());
+          println();
+        }
+        
+        return newResults;
+} 
 
 void draw()
 {
@@ -130,6 +155,6 @@ void keyPressed()
   if (!donePrinting)
   {
     userInput += key;
-    println("Tag: " + userInput);
+    println("Word: " + userInput);
   }
 }
