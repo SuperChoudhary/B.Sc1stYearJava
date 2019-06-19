@@ -16,7 +16,7 @@
 # 2Dto3DHeightMap.pde
 ### 2D Height Map
 ### Random 2D Height Map generated
-![gray](https://user-images.githubusercontent.com/24845911/59447700-21932d00-8e1d-11e9-97b9-15d982471338.png)
+![2DHeightMap](https://user-images.githubusercontent.com/24845911/59745240-d0a48e00-928d-11e9-960b-8cc5d1fbe426.png)
 
 ### 3D Height Map
 ![HeightMap3D](https://user-images.githubusercontent.com/24845911/59447701-21932d00-8e1d-11e9-8e38-9edd4447b3ae.PNG)
