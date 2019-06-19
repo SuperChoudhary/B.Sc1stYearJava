@@ -11,13 +11,9 @@
 ![HueInvertAndGreyScale](https://user-images.githubusercontent.com/24845911/59445873-d3c8f580-8e19-11e9-8b1d-1a6694870f4b.gif)
 
 # 2DHeightMapGenerator.pde
-![2DHeightMap](https://user-images.githubusercontent.com/24845911/59498590-22749f00-8eaf-11e9-9606-9190d75cb145.png)
-
-# 2Dto3DHeightMap.pde
-### 2D Height Map
-### Random 2D Height Map generated
 ![2DHeightMap](https://user-images.githubusercontent.com/24845911/59745240-d0a48e00-928d-11e9-960b-8cc5d1fbe426.png)
 
+# 2Dto3DHeightMap.pde
 ### 3D Height Map
 ![HeightMap3D](https://user-images.githubusercontent.com/24845911/59447701-21932d00-8e1d-11e9-8e38-9edd4447b3ae.PNG)
 
