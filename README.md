@@ -25,7 +25,7 @@
 
 ## 2Dto3DHeightMap.pde
 ### 2D Height Map
-![gray](https://user-images.githubusercontent.com/24845911/59447700-21932d00-8e1d-11e9-97b9-15d982471338.png)
+![2DHeightMap](https://user-images.githubusercontent.com/24845911/59745104-7e636d00-928d-11e9-8d11-28468e0ff11c.png)
 
 ### 3D Height Map
 ![HeightMap3D](https://user-images.githubusercontent.com/24845911/59447701-21932d00-8e1d-11e9-8e38-9edd4447b3ae.PNG)
